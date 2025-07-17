@@ -1,16 +1,16 @@
 # some information about you
-name: "John Doe"
-nickname: "John"
+name: "Marcel Müller"
+nickname: "Marcel"
 # greeting message before your name. it will default to "Hi! I am" if not provided
 greeting: "Hi, I am"
-image: "images/author/john.png"
+image: "images/author/marcel.jpg"
 # give your some contact information. they will be used in the footer
 contactInfo:
-  email: "johndoe@example.com"
-  phone: "+0123456789"
-  github: johndoe
-  linkedin: johndoe
-  researchgate: john-doe
+  email: "marcel.mueller1@ovgu.de"
+  phone: "+49 391 67-57035"
+  github: Nerozud
+  linkedin: marcel-müller-518446133
+  researchgate: Marcel-Mueller-25
 
 # some summary about what you do
 summary:
