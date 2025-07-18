@@ -4,101 +4,103 @@ section:
   id: education
   template: sections/education.html # Use "sections/education-alt.html for alternate template.
   enable: true
-  weight: 4
+  weight: 5
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
 
 degrees:
-- name: Ph.D in Quantum Cryptography
-  icon: fa-microscope
-  timeframe: 2016-2020
+# - name: Ph.D in Quantum Cryptography
+#   icon: fa-graduation-cap
+#   timeframe: 2016-2020
+#   institution:
+#     name: ABC University of Technology
+#     url: "#"
+#     logo: /images/sections/education/tech_college.png
+#     # Can optionally show a different logo for dark theme
+#     # darkLogo: /images/sections/education/tech_college.png
+#   grade: #(optional)
+#     scale: CGPA
+#     achieved: 3.6
+#     outOf: 4
+#   publications: #(optional)
+#   - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#     url: "#"
+#   - title: Fusce eu augue ut odio porttitor pulvinar.
+#     url: "#"
+#   - title: Nullam vitae orci tincidunt purus viverra pulvinar.
+#     url: "#"
+- name: Master of Science in Industrial Engineering for Logistics
+  icon: fa-university
+  timeframe: 2015-2016
   institution:
-    name: ABC University of Technology
-    url: "#"
-    logo: /images/sections/education/tech_college.png
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/education/tech_college.png
-  grade: #(optional)
-    scale: CGPA
-    achieved: 3.6
-    outOf: 4
-  publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
-  - title: Nullam vitae orci tincidunt purus viverra pulvinar.
-    url: "#"
-- name: B.Sc. in Computer Science & Engineering
-  icon: fa-graduation-cap
-  timeframe: 2012-2016
-  institution:
-    name: University of XYZ
-    url: "#"
-    logo: /images/sections/education/university.jpg
+    name: Otto von Guericke University Magdeburg
+    url: "https://www.ovgu.de/"
+    logo: /images/sections/experiences/ovgu-logo.png
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/education/university.jpg
-  grade: #(optional)
-    scale: CGPA
-    achieved: 3.5
-    outOf: 4
-  takenCourses: #(optional)
-    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
-    showGrades: true
-    collapseAfter: 3
-    courses:
-    - name: Data Structures and Algorithm
-      achieved: 3.75
-      outOf: 4
-    - name: Network Security
-      achieved: 3.80
-      outOf: 4
-    - name: Operating System
-      achieved: 3.5
-      outOf: 4
-    - name: Artificial Intelligent
-      achieved: 3.75
-      outOf: 4
-  publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
-  extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
+  # grade: #(optional)
+  #   scale: CGPA
+  #   achieved: 3.5
+  #   outOf: 4
+  # takenCourses: #(optional)
+  #   # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+  #   showGrades: true
+  #   collapseAfter: 3
+  #   courses:
+  #   - name: Data Structures and Algorithm
+  #     achieved: 3.75
+  #     outOf: 4
+  #   - name: Network Security
+  #     achieved: 3.80
+  #     outOf: 4
+  #   - name: Operating System
+  #     achieved: 3.5
+  #     outOf: 4
+  #   - name: Artificial Intelligent
+  #     achieved: 3.75
+  #     outOf: 4
+  # publications: #(optional)
+  # - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  #   url: "#"
+  # - title: Fusce eu augue ut odio porttitor pulvinar.
+  #   url: "#"
+  # extracurricularActivities: #(optional)
+  # - In vitae facilisis est, eget porta sem.
+  # - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
+  # - Duis sed massa feugiat, ornare justo et, aliquam est.
+  # - Pellentesque ut fringilla magna.
   customSections: #(optional)
     - name: Thesis
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      content: Extension of a key performance indicator system for comparing freight transport system scenarios to include a dynamic representation of forecast values.
     - name: Supervisor
-      content: Fusce eu augue ut odio porttitor pulvinar.
-- name: Higher Secondary School Certificate
+      content: Univ.-Prof. Dr.-Ing. habil. Prof. E. h. Dr. h. c. mult. Michael Schenk
+- name: Bachelor of Science in Industrial Engineering for Logistics
   icon: fa-university
-  timeframe: 2010-2012
+  timeframe: 2010-2014
   institution:
-    name: MST College of Science
-    url: "#"
-    logo: /images/sections/education/science_college.png
+    name: Otto von Guericke University Magdeburg
+    url: "https://www.ovgu.de/"
+    logo: /images/sections/experiences/ovgu-logo.png
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/education/science_college.png
-  grade: #(optional)
-    scale: GPA
-    achieved: 5
-    outOf: 5
-  extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
-- name: Secondary School Certificate
+  # grade: #(optional)
+  #   scale: GPA
+  #   achieved: 5
+  #   outOf: 5
+  customSections: #(optional)
+    - name: Thesis
+      content: Development of a simulation model for planning the washing order sequence in an industrial laundry.
+    - name: Supervisor
+      content: Univ.-Prof. Dr.-Ing. habil. Prof. E. h. Dr. h. c. mult. Michael Schenk
+- name: Abitur
   icon: fa-school
-  timeframe: 2005-2010
+  timeframe: 2001-2009
   institution:
-    name: JK School of Science
-  grade: #(optional)
-    scale: GPA
-    achieved: 4.5
-    outOf: 5
+    name: Werner-von-Siemens Gymnasium
+    url: "https://siemens.md.st.schule.de/"
+    logo: /images/sections/education/wvsg.svg
+  # grade: #(optional)
+  #   scale: GPA
+  #   achieved: 4.5
+  #   outOf: 5

@@ -3,7 +3,7 @@ section:
   name: Experiences
   id: experiences
   enable: true
-  weight: 3
+  weight: 4
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true 
@@ -14,14 +14,14 @@ experiences:
     name: Otto von Guericke University Magdeburg
     url: "https://www.ovgu.de/"
     location: Magdeburg, Germany
-    logo: /images/sections/experiences/OVGU-Logo.png
+    logo: /images/sections/experiences/ovgu-logo.png
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company1.jpg
     # company overview
     overview: Otto von Guericke University Magdeburg is a research university located in Magdeburg, Germany. It is known for its engineering and natural sciences programs.
   positions:
   - designation: Research Fellow
-    start: Nov 2019
+    start: Feb 2018
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
@@ -32,35 +32,51 @@ experiences:
 
 
 - company:
-    name: PreExample Co.
-    url: "https://www.example.com"
-    location: Nowhere
-    logo: /images/sections/experiences/company2.jpg
+    name: FASA Zweckverband zur Förderung des Maschinen- und Anlagenbau Sachsen-Anhalt e.V.
+    url: "https://www.fasa-ev.de/"
+    location: Magdeburg, Germany
+    logo: /images/sections/experiences/fasa-logo.png
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company2.jpg
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+    overview: FASA is an association for the promotion of mechanical and plant engineering in Saxony-Anhalt.
   positions:
-  - designation: Software Engineer
-    start: March 2016
-    end: May 2017
+  - designation: Technology Consultant
+    start: Aug 2017
+    end: Dec 2017
     responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
+    - Connect companies with technology partners.
+    - Advise companies on possible Industry 4.0 technologies.
 
 - company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.example.com"
-    location: Intern Land
-    logo: /images/sections/experiences/company3.jpg
+    name: Müller Marketing GmbH
+    url: "https://www.agentur-mm.de/"
+    location: Magdeburg, Germany
+    logo: /images/sections/experiences/mueller-marketing-logo.png
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company3.jpg
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+    overview: Müller Marketing GmbH is a B2B-focused marketing and advertising agency, offering services in brand communication, corporate design, and strategic marketing for medium-sized businesses.
   positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
+  - designation: Online Editor & Process Analyst
+    start: Jan 2012
+    end: Jun 2017
     responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+    - Determine and analyze costs of marketing processes.
+    - Edit online contents.
+    - Manage Google Ads.
+
+- company:
+    name: Brömse GmbH & Co. KG
+    url: "https://www.broemse.de/"
+    location: Haldensleben, Germany
+    logo: /images/sections/experiences/broemse-logo.svg
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/experiences/company4.jpg
+    overview: Brömse GmbH & Co. KG is a company specializing in the production of energy-efficient windows, doors, and roller shutter systems made from plastic and aluminum.
+  positions:
+  - designation: Student Assistant
+    start: Oct 2013
+    end: Dec 2013
+    responsibilities:
+    - Analyze processes in goods receipt.
+    - Planning of a small parts warehouse.
+    - Develop a concept for the shipping area.
