@@ -3,13 +3,31 @@ section:
   name: Experiences
   id: experiences
   enable: true
-  weight: 4
+  weight: 5
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true 
 
 # Your experiences
 experiences:
+- company:
+    name: Fraunhofer-Institut für Fabrikbetrieb und -automatisierung IFF
+    url: "https://www.iff.fraunhofer.de/"
+    location: Magdeburg, Germany
+    logo: /images/sections/experiences/fraunhofer-iff-logo.svg
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/experiences/company1.jpg
+    # company overview
+    overview: Fraunhofer Institute for Factory Operation and Automation IFF is a research institution located in Magdeburg, Germany. It focuses on applied research in the fields of production and logistics.
+  positions:
+  - designation: Research Fellow (secondary employment)
+    start: Jul 2025
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Develop a simulation model for a hydrogen factory.
+
 - company:
     name: Otto von Guericke University Magdeburg
     url: "https://www.ovgu.de/"
@@ -29,7 +47,6 @@ experiences:
     - Develop simulation models to address real-world problems.
     - Give lectures on simulation modeling.
     - Manage research projects. 
-
 
 - company:
     name: FASA Zweckverband zur Förderung des Maschinen- und Anlagenbau Sachsen-Anhalt e.V.

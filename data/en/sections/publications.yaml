@@ -3,7 +3,7 @@ section:
   name: Publications
   id: publications
   enable: true
-  weight: 6
+  weight: 4
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
@@ -12,71 +12,62 @@ section:
 buttons:
 - name: All
   filter: "all"
-- name: "Machine Learning"
-  filter: "machinelearning"
-- name: "Image Processing"
-  filter: "image-processing"
-- name: Security
-  filter: "security"
+- name: "Reinforcement Learning"
+  filter: "reinforcementlearning"
+- name: "Simulation"
+  filter: "simulation"
+- name: "Deadlocks"
+  filter: "deadlocks"
 
 # your publications
 publications:
-- title: An Example Paper on Machine Learning
+- title: Multi-Agent Proximal Policy Optimization for a Deadlock Capable Transport System in a Simulation-Based Learning Environment
   publishedIn:
-    name: 2020 IEEE Region Symposium (TENSYMP)
-    date: 7 June 2020
-    url: https://example.com
+    name: Proceedings of the 2023 Winter Simulation Conference
+    date: 10 December 2023
+    url: https://informs-sim.org/wsc23papers/by_area.html
   authors:
-  - name: Dr. Madman
-    url: https://example.com
-  - name: Dr. Lessmad
-    url: https://example.com
-  - name: Dr. Moremad
-    url: https://example.com
-  - name: Dr. Goodman
-    url: https://example.com
+  - name: Marcel Müller
+  - name: Lorena S. Reyes-Rubiano
+  - name: Tobias Reggelin
+  - name: Hartmut Zadek
   paper:
-    summary: Voluptate in id id voluptate laboris. Minim mollit aliquip sit aliqua ut exercitation voluptate eiusmod consequat pariatur sunt enim veniam. Velit esse tempor laboris anim tempor officia. Magna non labore duis do esse sit do ipsum culpa. Officia consequat id non duis culpa dolor. Excepteur magna non nostrud cupidatat aute aliqua aliquip.
-    url: https://example.com
-  categories: ["machinelearning","image-processing"]
-  tags: ["Machine Learning", "Autonomous Driving", "Computer Vision"]
+    summary: In this paper, we explore the potential of multi-agent reinforcement learning (MARL) for managing the driving behavior of autonomous guided vehicles (AGVs) in production logistics environments with single-lane tracks, where deadlocks pose a significant challenge. We build upon previous work and adopt a MARL approach using the Proximal Policy Optimization (PPO) algorithm. We conduct a thorough hyperparameter search and investigate the impact of varying numbers of agents on the performance of the AGVs. Our results demonstrate the effectiveness of the MARL approach in addressing deadlocks and coordinating AGV behavior, as well as the scalability of the learned policy to different numbers of agents. The Bayesian optimization process and increased iteration count contribute to improved performance and more stable learning curves.
+    url: https://ieeexplore.ieee.org/abstract/document/10408110
+  categories: ["reinforcementlearning", "simulation", "deadlocks"]
+  tags: ["Multi-Agent Reinforcement Learning", "Proximal Policy Optimization", "Automated Guided Vehicles", "Deadlocks", "Simulation"]
 
-- title: An Sample Paper on Image Processing
+- title: A review on reinforcement learning algorithms and applications in supply chain management
   publishedIn:
-    name: 2020 IEEE Region Symposium (TENSYMP)
-    date: 7 June 2020
-    url: https://example.com
+    name: International Journal of Production Research
+    date: 3 November 2022
+    url: https://www.tandfonline.com/journals/tprs20
   authors:
-  - name: Dr. Madman
-    url: https://example.com
-  - name: Dr. Lessmad
-    url: https://example.com
-  - name: Dr. Moremad
-    url: https://example.com
-  - name: Dr. Goodman
-    url: https://example.com
+  - name: Benjamin Rolf
+  - name: Ilya Jackson
+  - name: Marcel Müller
+  - name: Sebastian Lang
+  - name: Tobias Reggelin
+  - name: Dmitry Ivanov
   paper:
-    summary: Ullamco magna minim cupidatat Lorem ea ex aliqua fugiat et. Dolor quis cillum ea duis irure et commodo aliquip consectetur ullamco labore ut anim nisi. Commodo reprehenderit est consectetur tempor adipisicing occaecat exercitation amet do aliquip dolor do irure. Labore officia ut magna pariatur reprehenderit et ex sit sunt. Magna proident ullamco adipisicing sit.
-    url: https://example.com
-  categories: ["image-processing"]
-  tags: ["Image Processing", "Computer Vision"]
+    summary: Decision-making in supply chains is challenged by high complexity, a combination of continuous and discrete processes, integrated and interdependent operations, dynamics, and adaptability. The rapidly increasing data availability, computing power and intelligent algorithms unveil new potentials in adaptive data-driven decision-making. Reinforcement Learning, a class of machine learning algorithms, is one of the data-driven methods. This semi-systematic literature review explores the current state of the art of reinforcement learning in supply chain management (SCM) and proposes a classification framework. The framework classifies academic papers based on supply chain drivers, algorithms, data sources, and industrial sectors. The conducted review revealed a few critical insights. First, the classic Q-learning algorithm is still the most popular one. Second, inventory management is the most common application of reinforcement learning in supply chains, as it is a pivotal element of supply chain synchronisation. Last, most reviewed papers address toy-like SCM problems driven by artificial data. Therefore, shifting to industry-scale problems will be a crucial challenge in the next years. If this shift is successful, the vision of data-driven decision-making in real-time could become a reality.
+    url: https://www.tandfonline.com/doi/full/10.1080/00207543.2022.2140221
+  categories: ["reinforcementlearning"]
+  tags: ["Reinforcement Learning", "Supply Chain Management"]
 
-- title: An Example Paper on Security
+- title: Comparison of Deadlock Handling Strategies for Different Warehouse Layouts with an AGVS
   publishedIn:
-    name: 2020 IEEE Region Symposium (TENSYMP)
-    date: 7 June 2020
-    url: https://example.com
+    name: Proceedings of the 2020 Winter Simulation Conference
+    date: 14 December 2020
+    url: https://informs-sim.org/wsc20papers/by_area.html
   authors:
-  - name: Dr. Madman
-    url: https://example.com
-  - name: Dr. Lessmad
-    url: https://example.com
-  - name: Dr. Moremad
-    url: https://example.com
-  - name: Dr. Goodman
-    url: https://example.com
+  - name: Marcel Müller
+  - name: Jan Hendrik Ulrich
+  - name: Lorena S. Reyes-Rubiano
+  - name: Tobias Reggelin
+  - name: Sebastian Lang
   paper:
-    summary: Dolor ad cupidatat pariatur nulla ipsum ex ullamco nisi anim ullamco. Dolore elit esse in exercitation minim aliqua. Amet velit incididunt magna laboris. Proident reprehenderit deserunt ad officia duis dolor. Tempor nostrud ullamco ullamco sint deserunt cupidatat irure minim consectetur nulla adipisicing sunt.
-    url: https://example.com
-  categories: ["security"]
-  tags: ["Machine Learning", "Autonomous Driving", "Machine Vision"]
+    summary: Automated guided vehicles (AGVs) form a large and important part of logistic systems to improve productivity and reduce costs. When multiple AGVs are running in limited and uncertain environments, lots of issues can occur, such as collisions and deadlocks, which need to be addressed. This paper presents a flexible simulation model for a warehouse with various AGVs. We implemented all three typical strategies to handle deadlocks (prevention, avoidance and detection and resolution). The results show that there is no dominant strategy and that the results strongly depend on the individual case and the input parameters.
+    url: https://ieeexplore.ieee.org/abstract/document/9383883
+  categories: ["deadlocks", "simulation"]
+  tags: ["Deadlocks", "Simulation", "Logistics", "Automated Guided Vehicles"]
