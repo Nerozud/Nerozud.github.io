@@ -3,10 +3,6 @@ baseURL: https://nerozud.github.io
 languageCode: en
 title: "Marcel's Website"
 
-caches:
-  images:
-    dir: :cacheDir/images
-
 # Use Hugo modules to add theme
 module:
   imports:
