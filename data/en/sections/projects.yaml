@@ -21,45 +21,84 @@ buttons:
 
 # your projects
 projects:
-- name: Kubernetes
-  logo: /images/sections/projects/kubernetes.png
-  role: Contributor
-  timeline: "March 2018 - Present"
-  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Production-Grade Container Scheduling and Management.
-  tags: ["professional", "kubernetes", "cloud"]
-
-- name: Tensorflow
-  logo: /images/sections/projects/tensorflow.png
+- name: Reference Models for deadlock-capable multi-agent pathfinding
   role: Developer
-  timeline: "Jun 2018 - Present"
-  repo: https://github.com/tensorflow/tensorflow
-  #url: ""
-  summary: An Open Source Machine Learning Framework for Everyone.
-  tags: ["professional", "machine-learning"]
+  image: /images/sections/projects/dl-reference-models.png
+  timeline: "Aug 2024 - Present"
+  repo: https://github.com/Nerozud/dl_reference_models
+  summary: A project focused on creating reference models for deadlock-capable multi-agent pathfinding. The goal is to provide a benchmark for evaluating MAPF and RL algorithms in this domain.
+  tags: ["academic", "multi-agent-pathfinding", "deadlocks"]
 
-- name: A sample academic paper
-  role: Team Lead
-  timeline: "Jan 2017 - Nov 2017"
-  url: "https://www.example.com"
-  summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
-  tags: ["academic","iot"]
+- name: Reinforcement learning with Plant Simulation
+  role: Developer
+  timeline: "Feb 2023 - Present"
+  image: /images/sections/projects/fts-simpel.png
+  repo: https://github.com/Nerozud/FTS_simpel
+  summary: A project focused on applying reinforcement learning with RLlib to the simulation software Plant Simulation. Context is a simple AGV system for two processing stations.
+  tags: ["academic", "reinforcement-learning", "plant-simulation"]
 
-- name: Nocode
-  logo: /images/sections/projects/no-code.png
-  role: Nothing
-  timeline: "Oct 2019 - Dec 2019"
-  repo: https://github.com/kelseyhightower/nocode
-  #url: ""
-  summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
-  tags: ["hobby", "fun"]
+- name: Development of a Bologna-based Master Curriculum in Resource Efficient Production Logistics (ProdLog)
+  role: Project manager
+  timeline: "Mar 2020 - Oct 2021"
+  url: https://www.youtube.com/watch?v=xrccHv6FnHc
+  image: /images/sections/projects/prodlog.jpg
+  summary: I was responsible for the management of the project and to make sure that the project goals were met. The goal was to develop a new Master curriculum in Resource Efficient Production Logistics (ProdLog) at six partner universities. The project was funded by the European Union's Erasmus+ programme.
+  tags: ["professional", "curriculum-development", "production-logistics"]
 
-- name: Toha
-  logo: /images/sections/projects/toha.png
-  image: /images/sections/projects/toha_website.png
-  role: Owner
-  timeline: "Jun 2019 - Present"
-  repo: https://github.com/hossainemruz/toha
-  summary: A Hugo theme for personal portfolio.
-  tags: ["hobby","hugo","theme","professional"]
+- name: Real-time combination of material flow simulation, digital twins of manufacturing cells, an AGV and a mixed-reality application
+  role: Developer
+  timeline: "Mar 2020 - Jul 2020"
+  image: /images/sections/projects/dipro.png
+  url: https://www.sciencedirect.com/science/article/pii/S2212827121011690
+  tags: ["academic", "professional", "simulation", "digital-twin", "mixed-reality"]
+
+- name: Laundry Order Consolidation System (LOCsys)
+  timeline: "Jan 2018 - Feb 2020"
+  role: Developer
+  image: /images/sections/projects/locsys.png
+  url: https://www.youtube.com/watch?v=GjuDn0SNLVI
+  summary: My task was to develop a simulation model of a new designed laundry order consolidation system. The model was used to evaluate the performance of the new system and to identify potential bottlenecks. The "LOCSys" project was funded as a joint project by the BMWi as part of the Central Innovation Program for SMEs (ZIM).
+  tags: ["professional", "simulation", "plant-simulation"]
+
+# - name: Kubernetes
+#   logo: /images/sections/projects/kubernetes.png
+#   role: Contributor
+#   timeline: "March 2018 - Present"
+#   repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+#   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+#   summary: Production-Grade Container Scheduling and Management.
+#   tags: ["professional", "kubernetes", "cloud"]
+
+# - name: Tensorflow
+#   logo: /images/sections/projects/tensorflow.png
+#   role: Developer
+#   timeline: "Jun 2018 - Present"
+#   repo: https://github.com/tensorflow/tensorflow
+#   #url: ""
+#   summary: An Open Source Machine Learning Framework for Everyone.
+#   tags: ["professional", "machine-learning"]
+
+# - name: A sample academic paper
+#   role: Team Lead
+#   timeline: "Jan 2017 - Nov 2017"
+#   url: "https://www.example.com"
+#   summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
+#   tags: ["academic","iot"]
+
+# - name: Nocode
+#   logo: /images/sections/projects/no-code.png
+#   role: Nothing
+#   timeline: "Oct 2019 - Dec 2019"
+#   repo: https://github.com/kelseyhightower/nocode
+#   #url: ""
+#   summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
+#   tags: ["hobby", "fun"]
+
+# - name: Toha
+#   logo: /images/sections/projects/toha.png
+#   image: /images/sections/projects/toha_website.png
+#   role: Owner
+#   timeline: "Jun 2019 - Present"
+#   repo: https://github.com/hossainemruz/toha
+#   summary: A Hugo theme for personal portfolio.
+#   tags: ["hobby","hugo","theme","professional"]
