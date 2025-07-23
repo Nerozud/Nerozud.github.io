@@ -50,6 +50,7 @@ projects:
   timeline: "Mar 2020 - Jul 2020"
   image: /images/sections/projects/dipro.png
   url: https://www.sciencedirect.com/science/article/pii/S2212827121011690
+  summary: I developed the simulation model containing the digital twin of a manufacturing cell and the AGV. The model communicated via MQTT broker with a mixed-reality application and was used to visualize the real-time state of the system. 
   tags: ["academic", "professional", "simulation", "digital-twin", "mixed-reality"]
 
 - name: Laundry Order Consolidation System (LOCsys)
