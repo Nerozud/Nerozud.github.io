@@ -10,13 +10,13 @@ section:
   # hideTitle: true
 
 degrees:
-# - name: Ph.D in Quantum Cryptography
-#   icon: fa-graduation-cap
-#   timeframe: 2016-2020
-#   institution:
-#     name: ABC University of Technology
-#     url: "#"
-#     logo: /images/sections/education/tech_college.png
+- name: Doktoringenieur (Dr.-Ing.)
+  icon: fa-graduation-cap
+  timeframe: 2019-2025
+  institution:
+    name: Otto von Guericke University Magdeburg
+    url: "https://www.ovgu.de/"
+    logo: /images/sections/experiences/ovgu-logo.png
 #     # Can optionally show a different logo for dark theme
 #     # darkLogo: /images/sections/education/tech_college.png
 #   grade: #(optional)
@@ -30,6 +30,12 @@ degrees:
 #     url: "#"
 #   - title: Nullam vitae orci tincidunt purus viverra pulvinar.
 #     url: "#"
+  customSections: #(optional)
+    - name: PhD Thesis
+      content: Multi-Agent Reinforcement Learning for Deadlock Handling among Autonomous Mobile Robots
+    - name: Supervisors
+      content: Prof. Dr.-Ing. Hartmut Zadek
+      content: Prof. Dr.-Ing. Ernesto William De Luca
 - name: Master of Science in Industrial Engineering for Logistics
   icon: fa-university
   timeframe: 2015-2016
