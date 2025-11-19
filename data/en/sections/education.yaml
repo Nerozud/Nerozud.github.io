@@ -34,8 +34,7 @@ degrees:
     - name: PhD Thesis
       content: Multi-Agent Reinforcement Learning for Deadlock Handling among Autonomous Mobile Robots
     - name: Supervisors
-      content: Prof. Dr.-Ing. Hartmut Zadek
-      content: Prof. Dr.-Ing. Ernesto William De Luca
+      content: Prof. Dr.-Ing. Hartmut Zadek, Prof. Dr.-Ing. Ernesto William De Luca
 - name: Master of Science in Industrial Engineering for Logistics
   icon: fa-university
   timeframe: 2015-2016
