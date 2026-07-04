@@ -10,6 +10,20 @@ section:
 
 # Your experiences
 experiences:
+
+- company:
+    name: Rheinmetall
+    url: "https://www.rheinmetall.com/"
+    location: Germany
+    logo: /images/sections/experiences/rheinmetall-logo.svg
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/experiences/rheinmetall-logo-dark.svg
+    # company overview
+    overview: Rheinmetall is a leading systems supplier for the security and defence industry, the company develops advanced solutions for land, air, sea and digital domains, including vehicle systems, air defence, weapon and ammunition systems, electronics, simulation and mission support.
+  positions:
+  - designation: Employee
+    start: Jul 2026
+
 - company:
     name: Fraunhofer-Institut für Fabrikbetrieb und -automatisierung IFF
     url: "https://www.iff.fraunhofer.de/"
@@ -23,7 +37,7 @@ experiences:
   - designation: Research Fellow (secondary employment)
     start: Jul 2025
     # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
+    end: Dec 2025
     # give some points about what was your responsibilities at the company.
     responsibilities:
     - Develop a simulation model for a hydrogen production plant.
@@ -41,7 +55,7 @@ experiences:
   - designation: Research Fellow
     start: Feb 2018
     # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
+    end: Jun 2026
     # give some points about what was your responsibilities at the company.
     responsibilities:
     - Develop simulation models to address real-world problems.
