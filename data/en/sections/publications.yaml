@@ -21,6 +21,19 @@ buttons:
 
 # your publications
 publications:
+- title: Multi-Agent Reinforcement Learning for Deadlock Handling among Autonomous Mobile Robots
+  publishedIn:
+    name: arXiv
+    date: 10 November 2025
+    url: https://arxiv.org/abs/2511.07071
+  authors:
+  - name: Marcel Müller
+  paper:
+    summary: This dissertation explores the application of multi-agent reinforcement learning (MARL) for handling deadlocks in intralogistics systems that rely on autonomous mobile robots (AMRs). AMRs enhance operational flexibility but also increase the risk of deadlocks, which degrade system throughput and reliability. Existing approaches often neglect deadlock handling in the planning phase and rely on rigid control rules that cannot adapt to dynamic operational conditions. To address these shortcomings, this work develops a structured methodology for integrating MARL into logistics planning and operational control. It introduces reference models that explicitly consider deadlock-capable multi-agent pathfinding (MAPF) problems, enabling systematic evaluation of MARL strategies. Using grid-based environments and an external simulation software, the study compares traditional deadlock handling strategies with MARL-based solutions, focusing on PPO and IMPALA algorithms under different training and execution modes. Findings reveal that MARL-based strategies, particularly when combined with centralized training and decentralized execution (CTDE), outperform rule-based methods in complex, congested environments. In simpler environments or those with ample spatial freedom, rule-based methods remain competitive due to their lower computational demands. These results highlight that MARL provides a flexible and scalable solution for deadlock handling in dynamic intralogistics scenarios, but requires careful tailoring to the operational context.
+    url: https://arxiv.org/abs/2511.07071
+  categories: ["reinforcementlearning", "simulation", "deadlocks"]
+  tags: ["Multi-Agent Reinforcement Learning", "PhD thesis", "Automated Guided Vehicles", "Autonomous Mobile Robots", "Deadlocks", "Simulation"]
+
 - title: Multi-Agent Proximal Policy Optimization for a Deadlock Capable Transport System in a Simulation-Based Learning Environment
   publishedIn:
     name: Proceedings of the 2023 Winter Simulation Conference
