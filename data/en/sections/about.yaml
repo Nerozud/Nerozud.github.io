@@ -8,11 +8,11 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Research Fellow
+designation: Employee
 # your company information
 company:
-  name: Otto von Guericke University Magdeburg
-  url: https://www.ovgu.de/
+  name: Rheinmetall
+  url: https://www.rheinmetall.com/
 
 # your resume. this file path should be relative to you "static" directory
 # Dreprecated. Use resourceLinks instead.
@@ -24,9 +24,9 @@ summary: 'I am a passionate researcher and engineer with several years of experi
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
-- name: Email
-  icon: "fas fa-envelope"
-  url: "marcel.mueller1@ovgu.de"
+#- name: Email
+#  icon: "fas fa-envelope"
+#  url: "marcel.mueller1@ovgu.de"
 
 - name: Github
   icon: "fab fa-github"
